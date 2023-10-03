@@ -2,6 +2,7 @@
   "name": "mimir-ai",
   "version": "0.1.9",
   "description": "",
+  "type": "module",
   "files": [
     "dist"
   ],
