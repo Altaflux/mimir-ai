@@ -12,7 +12,7 @@
   ],
   "compilerOptions": {
     "target": "ES2021",
-    "module": "NodeNext",                     
+    "module": "commonjs", /* Specify what module code is generated. */                
     "lib": [
       "ES2021",
       "ES2022.Object",
@@ -28,7 +28,7 @@
   
     "esModuleInterop": true,
     "sourceMap": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "node",
     "skipLibCheck": true,
     "types": [
       "node",
